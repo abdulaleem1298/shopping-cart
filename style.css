@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f3f3f3;
+}
+
+.products, #cart-items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product, .cart-item {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  width: 200px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+button.remove {
+  background-color: crimson;
+}
+
+.cart-item button {
+  margin: 5px 2px;
+}
